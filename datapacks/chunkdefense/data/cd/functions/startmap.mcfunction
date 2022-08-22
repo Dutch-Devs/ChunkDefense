@@ -11,3 +11,6 @@ execute if score @e[tag=store,limit=1] selected_map matches 5 run function cd:ma
 execute if score @e[tag=store,limit=1] selected_map matches 6 run function cd:map/nether
 execute if score @e[tag=store,limit=1] selected_map matches 7 run function cd:map/ocean
 execute if score @e[tag=store,limit=1] selected_map matches 8 run function cd:map/mushroom
+
+gamemode survival @a
+function cd:utils/teleporttocage
