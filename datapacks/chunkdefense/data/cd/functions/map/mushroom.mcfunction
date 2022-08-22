@@ -1,0 +1,1 @@
+place template minecraft:mushroom_map 16 -1 0

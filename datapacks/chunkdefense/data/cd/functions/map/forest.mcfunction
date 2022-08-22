@@ -1,0 +1,1 @@
+place template minecraft:forest_map 16 -1 0
