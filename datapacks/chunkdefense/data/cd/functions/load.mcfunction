@@ -13,7 +13,16 @@ scoreboard objectives setdisplay list hp
 
 bossbar add alive_mobs "Alive Mobs"
 bossbar set alive_mobs players @a
-bossbar set alive_mobs visible false
+
+scoreboard objectives add max_mobs dummy
+scoreboard objectives add alive dummy
+
+scoreboard objectives add credits_per_kill dummy
+scoreboard players set @e[tag=score,limit=1] credits_per_kill 1
+
+team add mobs
+team modify mobs color black
+scoreboard objectives add kills teamkill.black
 
 # done
 

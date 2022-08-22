@@ -1,3 +1,2 @@
 function cd:setblocks
-weather clear
-time set day
+function cd:score/score
