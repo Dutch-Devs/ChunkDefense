@@ -6,7 +6,9 @@
 Minecraft Chunk Defense for 1.19
 
 </div>
+
 This map is based on the [1.14.3 map](https://www.minecraftmaps.com/pve-maps/chunk-defense) by SnakeMasterEpic
+Revamped by de_grote and I_Like_Cats__
 
 ## 🕹 How to Play
 To play this map, simply follow these steps:
