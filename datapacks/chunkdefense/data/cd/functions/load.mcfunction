@@ -1,0 +1,1 @@
+tellraw @a {"text": "Chunk Defense Initialised", "color": "#99DAAC"}

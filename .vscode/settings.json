@@ -1,0 +1,16 @@
+{
+	"files.exclude": {
+		"data": true,
+		"advancements": true,
+		"DIM-1": true,
+		"DIM1": true,
+		"entities": true,
+		"playerdata": true,
+		"poi": true,
+		"region": true,
+		"stats": true,
+		"level.dat": true,
+		"level.dat_old": true,
+		"session.lock": true,
+	}
+}
