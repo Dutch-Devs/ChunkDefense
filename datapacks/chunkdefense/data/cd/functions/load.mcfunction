@@ -18,7 +18,8 @@ scoreboard objectives add max_mobs dummy
 scoreboard objectives add alive dummy
 
 scoreboard objectives add credits_per_kill dummy
-scoreboard players set @e[tag=score,limit=1] credits_per_kill 1
+
+scoreboard objectives add credits dummy
 
 team add mobs
 team modify mobs color black

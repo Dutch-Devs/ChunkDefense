@@ -12,5 +12,8 @@ execute if score @e[tag=store,limit=1] selected_map matches 6 run function cd:ma
 execute if score @e[tag=store,limit=1] selected_map matches 7 run function cd:map/ocean
 execute if score @e[tag=store,limit=1] selected_map matches 8 run function cd:map/mushroom
 
+scoreboard players set @e[tag=score,limit=1] credits_per_kill 1
+scoreboard players set @a credits 0
+
 gamemode survival @a
 function cd:utils/teleporttocage
