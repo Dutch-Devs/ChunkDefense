@@ -12,8 +12,11 @@ execute if score dt selected_map matches 6 run function cd:map/nether
 execute if score dt selected_map matches 7 run function cd:map/ocean
 execute if score dt selected_map matches 8 run function cd:map/mushroom
 
+# Get rid of entities after setting map
+execute positioned 31.99 11.00 16.00 run kill @e[distance=..17,type=!minecraft:item_frame]
+
 scoreboard players set dt credits_per_kill 1
 scoreboard players set @a credits 0
 
 gamemode survival @a
-function cd:utils/teleporttocage
+schedule function cd:utils/teleporttocage 1s
