@@ -1,0 +1,1 @@
+data modify entity @e[type=item_frame,limit=1,sort=nearest] Invulnerable set value 1b
