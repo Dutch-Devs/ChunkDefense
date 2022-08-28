@@ -1,0 +1,1 @@
+execute as @e[team=mobs] run effect give @s glowing 15
