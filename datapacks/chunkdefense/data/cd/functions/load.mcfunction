@@ -24,10 +24,10 @@ scoreboard objectives add max_mobs dummy
 scoreboard objectives add alive dummy
 
 scoreboard objectives add credits_per_kill dummy
-
 scoreboard objectives add credits dummy
 
 scoreboard objectives add state dummy
+scoreboard objectives add round dummy
 
 scoreboard objectives add time_left dummy
 
@@ -36,6 +36,9 @@ scoreboard objectives add dead deathCount
 team add mobs
 team modify mobs color black
 scoreboard objectives add kills teamkill.black
+
+execute if score dt state matches 1 run bossbar set time visible true
+execute if score dt state matches 2 run bossbar set alive_mobs visible true
 
 # done
 

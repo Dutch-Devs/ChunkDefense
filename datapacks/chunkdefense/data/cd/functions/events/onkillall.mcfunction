@@ -1,1 +1,0 @@
-tellraw @a { "text": "Killed all mobs uwu" }
