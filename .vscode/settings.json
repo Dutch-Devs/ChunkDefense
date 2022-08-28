@@ -1,6 +1,6 @@
 {
 	"files.exclude": {
-		// "data": true,
+		"data": true,
 		"advancements": true,
 		"DIM-1": true,
 		"DIM1": true,
