@@ -1,0 +1,1 @@
+execute as @a if score @s dead matches 1.. run function cd:events/ondeath

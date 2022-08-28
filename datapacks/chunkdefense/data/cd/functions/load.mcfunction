@@ -1,7 +1,6 @@
 # init misc
 
 recipe give @a *
-spawnpoint @a -19 34 16 90
 setworldspawn -19 34 16 90
 
 # init scoreboards and bossbars
@@ -31,6 +30,8 @@ scoreboard objectives add credits dummy
 scoreboard objectives add state dummy
 
 scoreboard objectives add time_left dummy
+
+scoreboard objectives add dead deathCount
 
 team add mobs
 team modify mobs color black
