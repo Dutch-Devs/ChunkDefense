@@ -1,6 +1,8 @@
 # init misc
 
 recipe give @a *
+spawnpoint @a -19 34 16 90
+setworldspawn -19 34 16 90
 
 # init scoreboards and bossbars
 
