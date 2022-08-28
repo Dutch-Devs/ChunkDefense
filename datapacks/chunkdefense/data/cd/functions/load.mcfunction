@@ -34,8 +34,8 @@ scoreboard objectives add time_left dummy
 scoreboard objectives add dead deathCount
 
 team add mobs
-team modify mobs color black
-scoreboard objectives add kills teamkill.black
+team modify mobs color yellow
+scoreboard objectives add kills teamkill.yellow
 
 execute if score dt state matches 1 run bossbar set time visible true
 execute if score dt state matches 2 run bossbar set alive_mobs visible true
