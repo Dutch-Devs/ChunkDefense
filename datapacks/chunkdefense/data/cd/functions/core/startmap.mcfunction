@@ -21,5 +21,6 @@ scoreboard players set dt round 1
 scoreboard players set dt time_left 2400
 bossbar set time max 2400
 
+scoreboard objectives setdisplay sidebar credits
 
 schedule function cd:core/startround 10t

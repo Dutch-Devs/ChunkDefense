@@ -7,4 +7,5 @@ tellraw @a {"text":"You lost!","color":"red"}
 bossbar set alive_mobs visible false
 bossbar set time_left visible false
 function cd:utils/resetmap
+scoreboard objectives setdisplay sidebar
 kill @e[type=item,type=arrow,type=]
