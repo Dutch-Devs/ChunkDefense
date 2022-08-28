@@ -13,12 +13,14 @@ execute if score dt selected_map matches 7 run function cd:map/ocean
 execute if score dt selected_map matches 8 run function cd:map/mushroom
 
 # Get rid of entities after setting map
-execute positioned 31.99 11.00 16.00 run kill @e[distance=..17,type=!minecraft:item_frame]
+execute positioned 31.99 11.00 16.00 run kill @e[distance=..17,type=!minecraft:item_frame,type=!player]
 
 spawnpoint @a -19 34 16 90
 
 scoreboard players set dt credits_per_kill 1
 scoreboard players set @a credits 0
+scoreboard players set dt time_left 2400
+bossbar set time max 2400
 
-gamemode survival @a
-schedule function cd:utils/teleporttocage 1s
+
+schedule function cd:core/startround 10t
