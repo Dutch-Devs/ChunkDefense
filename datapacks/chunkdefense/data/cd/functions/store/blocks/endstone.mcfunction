@@ -1,0 +1,1 @@
+give @p end_stone 64

@@ -1,0 +1,1 @@
+give @p deepslate 64

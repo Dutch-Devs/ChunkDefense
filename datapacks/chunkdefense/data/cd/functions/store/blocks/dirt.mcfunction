@@ -1,0 +1,1 @@
+give @p dirt 64

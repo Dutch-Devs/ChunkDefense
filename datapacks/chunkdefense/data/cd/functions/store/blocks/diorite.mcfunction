@@ -1,0 +1,1 @@
+give @p diorite 64

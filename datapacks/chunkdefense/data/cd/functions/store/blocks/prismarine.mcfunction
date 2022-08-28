@@ -1,0 +1,1 @@
+give @p prismarine 64

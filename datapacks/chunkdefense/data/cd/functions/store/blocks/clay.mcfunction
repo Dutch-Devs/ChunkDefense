@@ -1,0 +1,1 @@
+give @p clay 64
