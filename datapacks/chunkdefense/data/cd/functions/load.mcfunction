@@ -22,6 +22,7 @@ bossbar set time color green
 
 scoreboard objectives add max_mobs dummy
 scoreboard objectives add alive dummy
+scoreboard objectives add alive2 dummy
 
 scoreboard objectives add credits_per_kill dummy
 scoreboard objectives add credits dummy
