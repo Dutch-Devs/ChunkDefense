@@ -5,4 +5,7 @@ time set day
 gamemode adventure @a
 scoreboard players set dt state 3
 scoreboard players add dt round 1
+gamerule drowningDamage false
+gamerule fallDamage false
+gamerule fireDamage false
 function cd:utils/gotostore

@@ -3,6 +3,19 @@
 recipe give @a *
 setworldspawn -19 34 16 90
 
+# gamerules
+
+gamerule doMobSpawning false
+gamerule doTraderSpawning false
+gamerule doPatrolSpawning false
+gamerule doWardenSpawning false
+gamerule doWeatherCycle false
+gamerule spawnRadius 0
+gamerule doInsomnia false
+gamerule disableRaids true
+gamerule playersSleepingPercentage 101
+gamerule universalAnger true
+
 # init scoreboards and bossbars
 
 scoreboard objectives add selected_map dummy
