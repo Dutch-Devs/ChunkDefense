@@ -15,6 +15,7 @@ gamerule doInsomnia false
 gamerule disableRaids true
 gamerule playersSleepingPercentage 101
 gamerule universalAnger true
+gamerule maxEntityCramming 0
 
 # init scoreboards and bossbars
 
