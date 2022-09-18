@@ -24,6 +24,7 @@ scoreboard players set dt dips_left 3
 scoreboard players set dt dip_active 0
 scoreboard players set dt no_night 0
 bossbar set time max 2400
+gamerule randomTickSpeed 3
 
 scoreboard objectives setdisplay sidebar credits
 
