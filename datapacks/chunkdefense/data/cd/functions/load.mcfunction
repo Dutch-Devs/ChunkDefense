@@ -48,6 +48,11 @@ scoreboard objectives add time_left dummy
 
 scoreboard objectives add dead deathCount
 
+scoreboard objectives add no_night dummy
+scoreboard objectives add mob_spawn dummy
+scoreboard objectives add dips_left dummy
+scoreboard objectives add dip_active dummy
+
 team add mobs
 team modify mobs color yellow
 scoreboard objectives add kills teamkill.yellow

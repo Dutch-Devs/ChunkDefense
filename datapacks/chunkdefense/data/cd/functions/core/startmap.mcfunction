@@ -19,6 +19,9 @@ scoreboard players set dt credits_per_kill 1
 scoreboard players set @a credits 0
 scoreboard players set dt round 1
 scoreboard players set dt time_left 2400
+scoreboard players set dt mob_spawn 0
+scoreboard players set dt dips_left 3
+scoreboard players set dt dip_active 0
 bossbar set time max 2400
 
 scoreboard objectives setdisplay sidebar credits
