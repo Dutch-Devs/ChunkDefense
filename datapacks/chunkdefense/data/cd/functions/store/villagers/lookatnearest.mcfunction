@@ -1,0 +1,1 @@
+execute as @e[type=villager] at @s run tp @s ~ ~ ~ facing entity @p
