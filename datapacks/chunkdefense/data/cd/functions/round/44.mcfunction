@@ -10,5 +10,5 @@ execute as @e[limit=5] run summon minecraft:bee 51.00 12.00 16.00 {Team: "mobs",
 execute as @e[limit=3] run summon minecraft:witch 13.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:40}],Health:40,CanPickUpLoot: false}
 execute as @e[limit=2] run summon minecraft:blaze 13.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}
 execute as @e[limit=5] run summon minecraft:bee 13.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:20}],Health:20,}
-scoreboard players set dt max_mobs 12
+scoreboard players set dt max_mobs 40
 function cd:round/loadvalues

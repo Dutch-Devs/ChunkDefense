@@ -26,5 +26,5 @@ execute as @e[limit=1] run summon minecraft:phantom 13.00 12.00 16.00 {Team: "mo
 execute as @e[limit=2] run summon minecraft:evoker 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:ravager 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:vindicator 13.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:36}],Health:36,HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}]}
-scoreboard players set dt max_mobs 28
+scoreboard players set dt max_mobs 120
 function cd:round/loadvalues

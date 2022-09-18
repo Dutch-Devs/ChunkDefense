@@ -18,5 +18,5 @@ execute as @e[limit=2] run summon minecraft:bee 13.00 12.00 16.00 {Team: "mobs",
 execute as @e[limit=2] run summon minecraft:phantom 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:vex 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:blaze 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 20
+scoreboard players set dt max_mobs 40
 function cd:round/loadvalues

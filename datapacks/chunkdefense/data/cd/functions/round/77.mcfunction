@@ -6,5 +6,5 @@ execute as @e[limit=4] run summon minecraft:spider 51.00 12.00 16.00 {Team: "mob
 execute as @e[limit=3] run summon minecraft:slime 51.00 12.00 16.00 {Team: "mobs",Size:1}
 execute as @e[limit=4] run summon minecraft:spider 13.00 12.00 16.00 {Team: "mobs",ActiveEffects:[{Id:1,Amplifier:1b,Duration:2147483647}]}
 execute as @e[limit=3] run summon minecraft:slime 13.00 12.00 16.00 {Team: "mobs",Size:1}
-scoreboard players set dt max_mobs 8
+scoreboard players set dt max_mobs 28
 function cd:round/loadvalues

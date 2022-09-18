@@ -6,5 +6,5 @@ execute as @e[limit=5] run summon minecraft:bat 51.00 12.00 16.00 {Passengers:[{
 execute as @e[limit=5] run summon minecraft:bat 51.00 12.00 16.00 {Passengers:[{id:"minecraft:skeleton",Team: "mobs",CanPickUpLoot: true, HandItems: [{id: "bow", Count:1b, tag: {Enchantments: [{id: "flame", lvl: 1}]}}]}]}
 execute as @e[limit=5] run summon minecraft:bat 13.00 12.00 16.00 {Passengers:[{id:"minecraft:stray",Team: "mobs",HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:punch",lvl:3s}]}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b}]}]}
 execute as @e[limit=5] run summon minecraft:bat 13.00 12.00 16.00 {Passengers:[{id:"minecraft:skeleton",Team: "mobs",CanPickUpLoot: true, HandItems: [{id: "bow", Count:1b, tag: {Enchantments: [{id: "flame", lvl: 1}]}}]}]}
-scoreboard players set dt max_mobs 8
+scoreboard players set dt max_mobs 48
 function cd:round/loadvalues

@@ -10,5 +10,5 @@ execute as @e[limit=1] run summon minecraft:skeleton 51.00 12.00 16.00 {Team: "m
 execute as @e[limit=6] run summon minecraft:wither_skeleton 13.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:40}],Health:40,HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}]}
 execute as @e[limit=3] run summon minecraft:stray 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:punch",lvl:3s}]}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b}]}
 execute as @e[limit=1] run summon minecraft:skeleton 13.00 12.00 16.00 {Team: "mobs",CanPickUpLoot: true, HandItems: [{id: "bow", Count:1b, tag: {Enchantments: [{id: "flame", lvl: 1}]}}]}
-scoreboard players set dt max_mobs 12
+scoreboard players set dt max_mobs 40
 function cd:round/loadvalues

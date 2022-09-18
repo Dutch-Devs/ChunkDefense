@@ -7,5 +7,5 @@ execute as @e[limit=1] run summon minecraft:zoglin 32.00 12.00 35.00 {Team: "mob
 execute as @e[limit=1] run summon minecraft:vex 51.00 12.00 16.00 {Team: "mobs",LifeTicks:2147483647}
 execute as @e[limit=3] run summon minecraft:spider 51.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=3] run summon minecraft:bat 51.00 12.00 16.00 {Passengers:[{id:"minecraft:hoglin",Team: "mobs",}]}
-scoreboard players set dt max_mobs 9
+scoreboard players set dt max_mobs 29
 function cd:round/loadvalues

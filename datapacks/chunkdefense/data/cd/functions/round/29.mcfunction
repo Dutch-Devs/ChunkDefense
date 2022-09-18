@@ -22,5 +22,5 @@ execute as @e[limit=2] run summon minecraft:blaze 13.00 12.00 16.00 {Team: "mobs
 execute as @e[limit=1] run summon minecraft:stray 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:ghast 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:piglin 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
-scoreboard players set dt max_mobs 24
+scoreboard players set dt max_mobs 32
 function cd:round/loadvalues

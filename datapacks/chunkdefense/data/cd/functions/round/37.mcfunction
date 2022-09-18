@@ -10,5 +10,5 @@ execute as @e[limit=4] run summon minecraft:zombie 13.00 12.00 16.00 {Team: "mob
 execute as @e[limit=2] run summon minecraft:skeleton 13.00 12.00 16.00 {Team: "mobs",CanPickUpLoot: 1b, HandItems: [{id: "bow", Count: 1b}]}
 execute as @e[limit=1] run summon minecraft:creeper 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:spider 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 12
+scoreboard players set dt max_mobs 22
 function cd:round/loadvalues

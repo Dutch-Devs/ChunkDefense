@@ -24,10 +24,10 @@ execute as @e[limit=1] run summon minecraft:piglin_brute 51.00 12.00 16.00 {Team
 execute as @e[limit=1] run summon minecraft:vex 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:stray 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:drowned 13.00 12.00 16.00 {Team: "mobs",CanBreakDoors:0b,IsBaby:0b,}
-execute as @e[limit=1] run summon minecraft:spider 13.00 12.00 16.00 {Team: "mobs",Passengers:[{id: "skeleton", CanPickUpLoot: false, HandItems: [{id: "bow", Count: 1b}]}]}
+execute as @e[limit=1] run summon minecraft:spider 13.00 12.00 16.00 {Team: "mobs",Passengers:[{id: "skeleton",Team: "mobs", CanPickUpLoot: false, HandItems: [{id: "bow", Count: 1b}]}]}
 execute as @e[limit=1] run summon minecraft:phantom 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:vindicator 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_axe",Count:1b},{}]}
 execute as @e[limit=1] run summon minecraft:piglin 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
 execute as @e[limit=1] run summon minecraft:piglin 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b},{}],IsBaby:true}
-scoreboard players set dt max_mobs 31
+scoreboard players set dt max_mobs 33
 function cd:round/loadvalues

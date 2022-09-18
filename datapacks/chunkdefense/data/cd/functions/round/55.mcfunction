@@ -6,5 +6,5 @@ execute as @e[limit=5] run summon minecraft:vex 51.00 12.00 16.00 {Team: "mobs",
 execute as @e[limit=2] run summon minecraft:pillager 51.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}}],Charged:1b}},{}]}
 execute as @e[limit=5] run summon minecraft:vex 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}],LifeTicks:2147483647}
 execute as @e[limit=2] run summon minecraft:pillager 13.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}}],Charged:1b}},{}]}
-scoreboard players set dt max_mobs 8
+scoreboard players set dt max_mobs 28
 function cd:round/loadvalues

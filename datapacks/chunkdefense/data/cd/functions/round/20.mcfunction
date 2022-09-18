@@ -14,5 +14,5 @@ execute as @e[limit=1] run summon minecraft:slime 13.00 12.00 16.00 {Team: "mobs
 execute as @e[limit=3] run summon minecraft:vex 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:witch 13.00 12.00 16.00 {Team: "mobs",CanPickUpLoot: false}
 execute as @e[limit=1] run summon minecraft:cave_spider 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 16
+scoreboard players set dt max_mobs 28
 function cd:round/loadvalues

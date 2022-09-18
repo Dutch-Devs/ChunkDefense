@@ -6,5 +6,5 @@ execute as @e[limit=1] run summon minecraft:drowned 51.00 12.00 16.00 {Team: "mo
 execute as @e[limit=15] run summon minecraft:pillager 51.00 12.00 16.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}},{id:"minecraft:tipped_arrow",Count:1b,tag:{Potion:"minecraft:strong_harming"}}],Charged:1b}},{}]}
 execute as @e[limit=13] run summon minecraft:zombie 13.00 12.00 16.00 {Team: "mobs",CanPickUpLoot: false, IsBaby: false}
 execute as @e[limit=11] run summon minecraft:creeper 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 8
+scoreboard players set dt max_mobs 85
 function cd:round/loadvalues

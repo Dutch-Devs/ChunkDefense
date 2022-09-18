@@ -93,5 +93,5 @@ execute as @e[limit=1] run summon minecraft:zombie 13.00 12.00 16.00 {Team: "mob
 execute as @e[limit=1] run summon minecraft:zombified_piglin 32.00 12.00 -3.00 {Team: "mobs",IsBaby:0b,CanBreakDoors:0b,HandItems:[{id:"minecraft:golden_sword",Count:1b},{}],IsBaby:true}
 execute as @e[limit=1] run summon minecraft:zombified_piglin 32.00 12.00 35.00 {Team: "mobs",IsBaby:0b,CanBreakDoors:1b,HandItems:[{id:"minecraft:golden_sword",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],IsBaby:true}
 execute as @e[limit=1] run summon minecraft:zombified_piglin 51.00 12.00 16.00 {Team: "mobs",IsBaby:0b,CanBreakDoors:1b,HandItems:[{id:"minecraft:golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{},{},{}],IsBaby:true}
-scoreboard players set dt max_mobs 95
+scoreboard players set dt max_mobs 96
 function cd:round/loadvalues

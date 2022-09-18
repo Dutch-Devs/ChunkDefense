@@ -10,5 +10,5 @@ execute as @e[limit=1] run summon minecraft:blaze 51.00 12.00 16.00 {Team: "mobs
 execute as @e[limit=1] run summon minecraft:ghast 13.00 12.00 16.00 {Team: "mobs",ExplosionPower: 2}
 execute as @e[limit=2] run summon minecraft:creeper 13.00 12.00 16.00 {Team: "mobs",ExplosionRadius: 6b, Fuse: 15}
 execute as @e[limit=1] run summon minecraft:blaze 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 12
+scoreboard players set dt max_mobs 16
 function cd:round/loadvalues

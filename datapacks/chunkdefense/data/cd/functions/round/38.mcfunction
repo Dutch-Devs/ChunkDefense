@@ -6,5 +6,5 @@ execute as @e[limit=1] run summon minecraft:ravager 51.00 12.00 16.00 {Team: "mo
 execute as @e[limit=2] run summon minecraft:ravager 51.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=1] run summon minecraft:ravager 13.00 12.00 16.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:ravager 13.00 12.00 16.00 {Team: "mobs",}
-scoreboard players set dt max_mobs 8
+scoreboard players set dt max_mobs 12
 function cd:round/loadvalues
