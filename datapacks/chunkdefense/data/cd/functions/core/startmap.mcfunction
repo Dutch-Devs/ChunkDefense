@@ -25,6 +25,8 @@ scoreboard players set dt no_night 0
 bossbar set time max 2400
 gamerule randomTickSpeed 3
 
+execute as @a run function cd:utils/clearenderchest
+
 scoreboard objectives setdisplay sidebar credits
 
 schedule function cd:core/startround 10t
