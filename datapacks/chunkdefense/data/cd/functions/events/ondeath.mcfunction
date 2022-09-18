@@ -10,4 +10,5 @@ function cd:utils/resetmap
 scoreboard objectives setdisplay sidebar
 kill @e[type=arrow]
 kill @e[type=item]
+kill @e[team=mobs]
 time set day

@@ -1,1 +1,1 @@
-execute if score dt alive matches 0 run schedule function cd:core/endround 5s
+execute if score dt alive matches 0 run schedule function cd:events/checks/checkifaliveatend 5s

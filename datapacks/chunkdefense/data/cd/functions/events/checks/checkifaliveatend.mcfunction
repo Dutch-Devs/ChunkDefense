@@ -1,0 +1,1 @@
+execute unless score dt state matches 0 run function cd:core/endround
