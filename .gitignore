@@ -2,6 +2,7 @@ playerdata/
 stats/
 poi/
 advancements/
+!datapacks/chunkdefense/data/cd/advancements
 
 /data
 DIM-1/

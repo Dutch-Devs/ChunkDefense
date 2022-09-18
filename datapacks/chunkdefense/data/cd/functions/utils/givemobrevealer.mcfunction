@@ -1,0 +1,1 @@
+give @s ender_eye{display: {Name: '{"text":"Mob Revealer","color":"#FF3333","bold":true}', Lore: ['{"text":"Reveal all remaining mobs for 15 seconds","color":"white","italic":true}']}, mobrevealer: 1b} 1

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:ender_eye"
+					],
+					"nbt": "{mobrevealer:1b}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cd:utils/revealmobs"
+	}
+}
