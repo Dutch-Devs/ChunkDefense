@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 24 started with 20 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=1] run summon minecraft:drowned 32.00 12.00 -3.00 {Team: "mobs",CanBreakDoors:0b,IsBaby:0b,IsBaby:true}
 execute as @e[limit=1] run summon minecraft:husk 32.00 12.00 -3.00 {Team: "mobs",CanBreakDoors:0b,IsBaby:0b,IsBaby:true}
 execute as @e[limit=1] run summon minecraft:piglin 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b},{}],IsBaby:true}

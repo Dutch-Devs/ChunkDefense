@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 76 started with 4 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=1] run summon minecraft:evoker 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}
 execute as @e[limit=1] run summon minecraft:evoker 32.00 12.00 35.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}
 execute as @e[limit=1] run summon minecraft:evoker 51.00 12.00 16.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}

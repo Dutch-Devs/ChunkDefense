@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 37 started with 22 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=1] run summon minecraft:vindicator 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}
 execute as @e[limit=1] run summon minecraft:drowned 32.00 12.00 -3.00 {Team: "mobs",CanBreakDoors:1b,IsBaby:0b,HandItems:[{id:"minecraft:trident",Count:1b,tag:{display:{Name:'{"text":"Spicy Fork"}'}}},{}]}
 execute as @e[limit=1] run summon minecraft:vindicator 32.00 12.00 35.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}

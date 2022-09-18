@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 39 started with 10 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=1] run summon minecraft:chicken 32.00 12.00 -3.00 {Team: "mobs",CanPickUpLoot:1b,IsChickenJockey:1b,Passengers:[{id:"minecraft:zombie",IsBaby:1b,CanBreakDoors:1b,CanPickUpLoot:1b}]}
 execute as @e[limit=1] run summon minecraft:blaze 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}
 execute as @e[limit=1] run summon minecraft:pillager 32.00 12.00 35.00 {Team: "mobs",HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}

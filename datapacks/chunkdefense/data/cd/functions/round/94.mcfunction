@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 94 started with 29 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=5] run summon minecraft:zombified_piglin 32.00 12.00 -3.00 {Team: "mobs",IsBaby:0b,CanBreakDoors:1b,HandItems:[{id:"minecraft:golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{},{},{}]}
 execute as @e[limit=3] run summon minecraft:wither_skeleton 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}
 execute as @e[limit=6] run summon minecraft:stray 32.00 12.00 -3.00 {Team: "mobs",ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b}]}

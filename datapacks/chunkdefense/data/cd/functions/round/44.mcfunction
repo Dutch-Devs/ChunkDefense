@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 44 started with 40 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=3] run summon minecraft:witch 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:40}],Health:40,CanPickUpLoot: false}
 execute as @e[limit=2] run summon minecraft:blaze 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:30}],Health:30,}
 execute as @e[limit=5] run summon minecraft:bee 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:20}],Health:20,}

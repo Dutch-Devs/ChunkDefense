@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 16 started with 16 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=2] run summon minecraft:vindicator 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_axe",Count:1b},{}]}
 execute as @e[limit=2] run summon minecraft:pillager 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:vindicator 32.00 12.00 35.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_axe",Count:1b},{}]}

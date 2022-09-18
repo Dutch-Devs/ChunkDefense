@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 27 started with 40 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=2] run summon minecraft:ghast 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:bee 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:phantom 32.00 12.00 -3.00 {Team: "mobs",}

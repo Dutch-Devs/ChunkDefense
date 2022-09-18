@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 88 started with 85 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=14] run summon minecraft:spider 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=4] run summon minecraft:wither_skeleton 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}
 execute as @e[limit=7] run summon minecraft:ravager 32.00 12.00 35.00 {Team: "mobs",}

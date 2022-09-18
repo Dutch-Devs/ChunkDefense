@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 60 started with 20 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=3] run summon minecraft:piglin 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}
 execute as @e[limit=2] run summon minecraft:piglin_brute 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:75}],Health:75,CanPickUpLoot:1b,IsImmuneToZombification:1b,HandItems:[{id:"minecraft:golden_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}]}
 execute as @e[limit=3] run summon minecraft:piglin 32.00 12.00 35.00 {Team: "mobs",HandItems:[{id:"minecraft:golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}]}

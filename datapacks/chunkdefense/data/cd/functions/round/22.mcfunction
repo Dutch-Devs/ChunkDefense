@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 22 started with 12 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=2] run summon minecraft:wither_skeleton 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b},{}]}
 execute as @e[limit=1] run summon minecraft:hoglin 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=2] run summon minecraft:wither_skeleton 32.00 12.00 35.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b},{}]}

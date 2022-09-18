@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 42 started with 36 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=4] run summon minecraft:spider 32.00 12.00 -3.00 {Team: "mobs",Passengers:[{id: "skeleton",Team: "mobs", CanPickUpLoot: false, HandItems: [{id: "bow", Count: 1b}], ArmorItems: [{ id: "iron_helmet", Count: 1b}]}]}
 execute as @e[limit=1] run summon minecraft:ravager 32.00 12.00 -3.00 {Team: "mobs",}
 execute as @e[limit=3] run summon minecraft:vex 32.00 12.00 -3.00 {Team: "mobs",LifeTicks:2147483647}

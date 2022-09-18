@@ -1,3 +1,4 @@
+tellraw @a {"text":"Round 69 started with 120 mobs, good luck!","color":"#99DAAC"}
 execute as @e[limit=10] run summon minecraft:cave_spider 32.00 12.00 -3.00 {Team: "mobs",ActiveEffects:[{Id:1,Amplifier:1b,Duration:2147483647,ShowParticles:1b}]}
 execute as @e[limit=10] run summon minecraft:vex 32.00 12.00 -3.00 {Team: "mobs",HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]}},{}],LifeTicks:2147483647}
 execute as @e[limit=5] run summon minecraft:ghast 32.00 12.00 -3.00 {Team: "mobs",Attributes:[{Name:"generic.max_health",Base:20}],Health:20,ExplosionPower: 3}
