@@ -8,7 +8,9 @@ bossbar set alive_mobs visible false
 bossbar set time_left visible false
 function cd:utils/resetmap
 scoreboard objectives setdisplay sidebar
-kill @e[type=arrow]
+kill @e[type=#arrows]
 kill @e[type=item]
 kill @e[team=mobs]
+kill @e[type=experience_orb]
+kill @e[type=experience_bottle]
 time set day
