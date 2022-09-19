@@ -1,0 +1,10 @@
+execute if score dt credits_per_kill matches 5 unless score @s credits matches 160.. run function cd:store/insufficient
+execute if score dt credits_per_kill matches 5 if score @s credits matches 160.. run function cd:store/bank/credits/upgrade5
+execute if score dt credits_per_kill matches 4 unless score @s credits matches 80.. run function cd:store/insufficient
+execute if score dt credits_per_kill matches 4 if score @s credits matches 80.. run function cd:store/bank/credits/upgrade4
+execute if score dt credits_per_kill matches 3 unless score @s credits matches 40.. run function cd:store/insufficient
+execute if score dt credits_per_kill matches 3 if score @s credits matches 40.. run function cd:store/bank/credits/upgrade3
+execute if score dt credits_per_kill matches 2 unless score @s credits matches 20.. run function cd:store/insufficient
+execute if score dt credits_per_kill matches 2 if score @s credits matches 20.. run function cd:store/bank/credits/upgrade2
+execute if score dt credits_per_kill matches 1 unless score @s credits matches 10.. run function cd:store/insufficient
+execute if score dt credits_per_kill matches 1 if score @s credits matches 10.. run function cd:store/bank/credits/upgrade1
