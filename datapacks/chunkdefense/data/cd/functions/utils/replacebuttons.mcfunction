@@ -8,3 +8,4 @@ setblock 7 68 -82 minecraft:polished_blackstone_button[face=floor,facing=west,po
 setblock 9 68 -79 minecraft:polished_blackstone_button[face=floor,facing=south,powered=false]
 setblock 11 68 -79 minecraft:polished_blackstone_button[face=floor,facing=south,powered=false]
 setblock 13 68 -79 minecraft:polished_blackstone_button[face=floor,facing=south,powered=false]
+setblock 6 68 -81 minecraft:polished_blackstone_button[face=floor,facing=west,powered=false]
