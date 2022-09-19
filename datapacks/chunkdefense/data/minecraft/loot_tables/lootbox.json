@@ -1,15 +1,30 @@
 {
-	"type": "minecraft:chest",
+	"type": "minecraft:generic",
 	"pools": [
 		{
-			"rolls": {
-				"type": "minecraft:constant",
-				"value": 1
-			},
+			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:stone"
+					"type": "minecraft:loot_table",
+					"name": "minecraft:discs"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:banners"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:coral"
 				}
 			]
 		}
