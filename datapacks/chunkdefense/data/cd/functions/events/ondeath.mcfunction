@@ -6,7 +6,7 @@ scoreboard players set @a dead 0
 tellraw @a {"text":"You lost!","color":"red"}
 bossbar set alive_mobs visible false
 bossbar set time_left visible false
-function cd:utils/resetmap
+function cd:helpers/resetmap
 function cd:preview/plains
 scoreboard objectives setdisplay sidebar
 kill @e[type=#arrows]

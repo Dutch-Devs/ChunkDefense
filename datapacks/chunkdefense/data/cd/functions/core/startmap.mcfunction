@@ -28,7 +28,7 @@ gamerule randomTickSpeed 3
 setblock 15 67 -79 iron_block
 setblock 15 68 -79 minecraft:polished_blackstone_button[face=floor,facing=south,powered=false]
 
-execute as @a run function cd:utils/clearenderchest
+execute as @a run function cd:helpers/clearenderchest
 
 scoreboard objectives setdisplay sidebar credits
 
