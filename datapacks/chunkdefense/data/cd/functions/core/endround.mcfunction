@@ -11,5 +11,5 @@ gamerule fireDamage false
 gamerule randomTickSpeed 3
 weather clear
 effect clear @a saturation
-function cd:utils/replacebuttons
-function cd:utils/gotostore
+function cd:helpers/replacebuttons
+function cd:helpers/gotostore

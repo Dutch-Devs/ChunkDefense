@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "cd:utils/revealmobs"
+		"function": "cd:helpers/revealmobs"
 	}
 }
