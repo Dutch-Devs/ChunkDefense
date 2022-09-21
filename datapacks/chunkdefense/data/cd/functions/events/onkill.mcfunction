@@ -4,6 +4,8 @@ scoreboard players remove @s kills 1
 scoreboard players remove dt alive 1
 execute store result bossbar alive_mobs value run scoreboard players get dt alive
 
+# check if a drowned has spawned
+function cd:events/checks/drowned
 # in the case new slimes or magma cubes spawn
 # 22 ticks is the time between slime death and new children spawning btw
 schedule function cd:events/checks/slime 22t append
