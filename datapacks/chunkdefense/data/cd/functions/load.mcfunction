@@ -39,7 +39,7 @@ scoreboard objectives add alive dummy
 scoreboard objectives add alive2 dummy
 
 scoreboard objectives add credits_per_kill dummy
-scoreboard objectives add credits dummy
+scoreboard objectives add credits dummy "Credits"
 
 scoreboard objectives add state dummy
 scoreboard objectives add round dummy
