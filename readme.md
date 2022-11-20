@@ -33,3 +33,18 @@ If you are planning on just modifying this datapack for your own needs, feel fre
 
 ### 🔨 Working on the project
 TBA
+
+
+## ✔ To-Do
+These are planned features:
+- [ ] Achievements
+- [ ] End of map event
+- [ ] Lobby book
+- [ ] Semi playing guide
+- [ ] Design icon.png
+- [ ] Make lootboxes work
+- [ ] Prices for upgrades
+- [ ] Fix no saplings issue for nether, ocean and desert
+- [ ] Generate book with mob rounds (spawnScript repo)
+
+Ideas are welcome!
