@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": {
+            "text": "Welcome to Chunk Defence!",
+            "color": "green"
+        },
+        "description": {
+            "text": "[Insert helpful instructions here]",
+            "color": "white"
+        },
+        "hidden": false,
+        "background": "minecraft:textures/block/iron_block.png"
+    },
+    "criteria": {
+        "round_1": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

@@ -1,5 +1,6 @@
 function cd:loop/setblocks
 function cd:loop/score
+function cd:loop/no_nether
 function cd:mobs/handlepassive
 function cd:events/checks/checkifdead
 function cd:events/checks/checkifkill

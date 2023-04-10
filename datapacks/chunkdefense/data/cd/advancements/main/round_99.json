@@ -1,0 +1,22 @@
+{
+    "parent": "cd:main/round_50",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "title": {
+            "text": "Round 99",
+            "color": "green"
+        },
+        "description": {
+            "text": "Just one more round",
+            "color": "white"
+        },
+        "hidden": false
+    },
+    "criteria": {
+        "round_99": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

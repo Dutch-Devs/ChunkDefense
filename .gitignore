@@ -1,8 +1,7 @@
-playerdata/
-stats/
-poi/
-advancements/
-!datapacks/chunkdefense/data/cd/advancements
+/playerdata/
+/stats/
+/poi/
+/advancements/
 
 /data
 DIM-1/

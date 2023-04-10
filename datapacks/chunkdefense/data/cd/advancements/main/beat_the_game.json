@@ -1,0 +1,23 @@
+{
+    "parent": "cd:main/round_99",
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": {
+            "text": "Beat the game",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Defeat the final boss of chunk defence",
+            "color": "gold"
+        },
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "round_99": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

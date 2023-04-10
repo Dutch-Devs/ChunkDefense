@@ -1,0 +1,22 @@
+{
+    "parent": "cd:main/round_1",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {
+            "text": "Round 50",
+            "color": "green"
+        },
+        "description": {
+            "text": "Halfway there",
+            "color": "white"
+        },
+        "hidden": false
+    },
+    "criteria": {
+        "round_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

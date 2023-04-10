@@ -1,0 +1,22 @@
+{
+    "parent": "cd:main/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "title": {
+            "text": "Round 1",
+            "color": "green"
+        },
+        "description": {
+            "text": "Survive the first night",
+            "color": "white"
+        },
+        "hidden": false
+    },
+    "criteria": {
+        "round_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
