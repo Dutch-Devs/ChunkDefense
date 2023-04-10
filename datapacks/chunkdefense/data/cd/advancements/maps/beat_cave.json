@@ -1,0 +1,23 @@
+{
+    "parent": "cd:maps/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": {
+            "text": "Beat cave",
+            "color": "green"
+        },
+        "description": {
+            "text": "Beat the game on the cave map",
+            "color": "white"
+        },
+        "hidden": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "beat_cave": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

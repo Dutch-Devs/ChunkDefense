@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": {
+            "text": "Map Tracker",
+            "color": "gold"
+        },
+        "description": {
+            "text": "See which maps you have beaten",
+            "color": "white"
+        },
+        "hidden": true,
+        "background": "minecraft:textures/block/netherite_block.png"
+    },
+    "criteria": {
+        "map_tracker": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "cd:maps/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {
+            "text": "Beat tundra",
+            "color": "green"
+        },
+        "description": {
+            "text": "Beat the game on the tundra map",
+            "color": "white"
+        },
+        "hidden": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "beat_tundra": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

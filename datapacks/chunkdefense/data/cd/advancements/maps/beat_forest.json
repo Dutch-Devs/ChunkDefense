@@ -1,0 +1,23 @@
+{
+    "parent": "cd:maps/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "title": {
+            "text": "Beat forest",
+            "color": "green"
+        },
+        "description": {
+            "text": "Beat the game on the forest map",
+            "color": "white"
+        },
+        "hidden": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "beat_forest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
